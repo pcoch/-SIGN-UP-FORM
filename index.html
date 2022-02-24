@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <section class="image-container">
+        <div class="logo"><img src="/steem.png" alt="https://iconscout.com/3d/steem-3443560"></div>
+    </section>
+
+    <section class="signup-container">
+        <div class="form-container">
+            <div class="heading">
+                <h1>Create Account</h1>
+            </div>
+            <form class="signup-form" action="/action_page.js" method="post">
+                <div class="form-row">
+                    <div class="input-label">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name" required>
+                    </div>
+                    <div class="input-label">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="input-label">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="input-label">
+                        <label for="phone">Phone Number</label>
+                        <input type="number" name="phone" id="phone" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="input-label">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <div class="input-label">
+                        <label for="password">Confirm Password</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                </div>
+                <div class="btn-row btn">
+                    <button class="submit-btn" type="submit">Create Account</button>
+                    <h5>Already have an account? <span>Log In</span></h5>
+                </div>
+            </form>
+        </div>
+
+
+    </section>
+
+</body>
+
+</html>
